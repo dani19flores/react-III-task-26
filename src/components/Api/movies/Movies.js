@@ -43,11 +43,11 @@ const Movies = () => {
         <article>
         <section className='search-container'>
         <input
-          type="text"
-          placeholder="Buscar por nombre..."
-          value={searchTerm}
-          onChange={handleSearch}
-          className="search-input"
+            type="text"
+            placeholder="Buscar por nombre..."
+            value={searchTerm}
+            onChange={handleSearch}
+            className="search-input"
         />
         </section>
         <h1>Lista de peliculas</h1>
