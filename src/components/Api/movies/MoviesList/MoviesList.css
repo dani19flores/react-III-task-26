@@ -1,0 +1,19 @@
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movies-container-list {
+    display: block;
+    margin: 10px;
+    background-color: #45688b;
+    cursor: pointer;
+}
+
+.movies-container-list .movies-title-movie {
+    max-width: 210px;
+    text-align: center;
+    color: #f0f0f0;
+    word-wrap: break-word;
+    margin: 0;
+}
