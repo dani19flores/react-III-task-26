@@ -1,16 +1,17 @@
 import React from 'react';
-import "./MoviesList.css"
+
+import {Section_container,Container_List,Title_movie} from "./style";
 
 const MoviesList = ({ shows }) => {
     return (
-        <section className='movies'>
+        <Section_container>
             {shows.map(show => (
-                <section className='movies-container-list'>
-                    <h3 className='movies-title-movie' key={show.id}>{show.name}</h3>
+                <Container_List>
+                    <Title_movie key={show.id}>{show.name}</Title_movie>
                     <img src={show.image.medium}></img>
-                </section>
+                </Container_List>
             ))}
-        </section>
+        </Section_container>
     );
 };
 

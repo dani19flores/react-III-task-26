@@ -1,15 +1,17 @@
 import { Link } from "react-router-dom";
-import "./style.css"
+import "./style.css";
+import {Headers,Title,Navition} from "./style";
+
 const Header = () => {
 
     return(
-        <header>
-            <h1>JustWatch</h1>
-            <nav className="nav-container">
+        <Headers>
+            <Title>JustWatch</Title>
+            <Navition>
                 <Link className="link" to="/">Home</Link>
                 <Link className="link" to="/movies">movies</Link>
-            </nav>
-        </header>
+            </Navition>
+        </Headers>
     )
 }
 

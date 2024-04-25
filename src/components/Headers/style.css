@@ -4,26 +4,6 @@
     font-weight: 400;
 }
 
-header{
-    background-color: #ececec;
-    width: 100%;
-    padding: 40px;
-    border: 1px solid green;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-
-h1{
-    font-weight: 600;
-    font-size: 16px;
-}
-
-.nav-container{
-    display: flex;
-    flex-direction: row;
-}
-
 .link{
     padding: 10px;
 }
